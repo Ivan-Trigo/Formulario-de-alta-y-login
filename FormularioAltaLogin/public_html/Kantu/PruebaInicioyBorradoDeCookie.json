@@ -1,0 +1,41 @@
+{
+  "Name": "PruebaInicioyBorradoDeCookie",
+  "CreationDate": "2019-3-3",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://localhost:8383/FormularioAltaLogin/index.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=usuario",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=usuario",
+      "Value": "Maria"
+    },
+    {
+      "Command": "click",
+      "Target": "id=acceso",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=clave",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=clave",
+      "Value": "Maria123$"
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=acceso",
+      "Value": ""
+    }
+  ]
+}

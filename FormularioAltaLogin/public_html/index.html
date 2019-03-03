@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="ES">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/login.js"></script>
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend>Inicio de sesion</legend>
+                
+                <label for="usuario">Usuario:</label><br/>
+                <input type="text" id="usuario" name="usuario" >
+                <br/><br/>
+
+                <label for="clave">Contraseña:</label><br/>
+                <input type="password" id="clave" name="clave">
+                <br/><br/>
+                
+                <input type="button" id="acceso" name="acceso" value="Iniciar sesion" title="iniciar sesion">
+                <br/>
+                <script type="text/javascript">
+                    document.getElementById("acceso").addEventListener('click',iniciarSesion,false);
+                </script>
+
+                <a href="formulario.html" title="crear usuario"><input type="button" name="crear" id="crear" value="Crear usuario"/></a>
+            </fieldset>
+        </div>
+    </body>
+</html>

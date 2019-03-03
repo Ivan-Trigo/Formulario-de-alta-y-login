@@ -1,0 +1,131 @@
+{
+  "Name": "PruebaSolicitudDatosObligatorios",
+  "CreationDate": "2019-3-3",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://localhost:8383/FormularioAltaLogin/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=nombre",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=enviar",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=nombre",
+      "Value": "Antonio"
+    },
+    {
+      "Command": "click",
+      "Target": "id=enviar",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=apellidos",
+      "Value": "Navarro"
+    },
+    {
+      "Command": "click",
+      "Target": "id=enviar",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=correo",
+      "Value": "antonionavarro@gmail.com"
+    },
+    {
+      "Command": "click",
+      "Target": "id=enviar",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=password",
+      "Value": "Anton10$"
+    },
+    {
+      "Command": "type",
+      "Target": "id=password2",
+      "Value": "Anton10$"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/fieldset",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/fieldset",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "name=sexo",
+      "Value": "hombre"
+    },
+    {
+      "Command": "click",
+      "Target": "name=sexo",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=fecha",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/fieldset",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=fecha",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=fecha",
+      "Value": "2008-12-31"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/fieldset",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=direccion",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=subcripcion",
+      "Value": "on"
+    },
+    {
+      "Command": "click",
+      "Target": "id=subcripcion",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=condiciones",
+      "Value": "on"
+    },
+    {
+      "Command": "click",
+      "Target": "id=condiciones",
+      "Value": ""
+    }
+  ]
+}

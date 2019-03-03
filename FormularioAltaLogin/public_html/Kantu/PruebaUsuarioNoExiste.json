@@ -1,0 +1,26 @@
+{
+  "Name": "PruebaUsuarioNoExiste",
+  "CreationDate": "2019-3-3",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://localhost:8383/FormularioAltaLogin/index.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=usuario",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=usuario",
+      "Value": "Antonio"
+    },
+    {
+      "Command": "click",
+      "Target": "id=acceso",
+      "Value": ""
+    }
+  ]
+}
