@@ -136,8 +136,8 @@ function acceso(sesion){
  */
 function cerrarSesion(){
     var fecha = new Date();
-    document.cookie = sesion + "=0; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
-    document.cookie = sesion + "p=; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+    document.cookie = sesion + "=0; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/";
+    document.cookie = sesion + "p=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/";
     localStorage.setItem("usuario", null);
     alert("Se ha borrado la cookie del usuario " + sesion);
     window.location='index.html';
